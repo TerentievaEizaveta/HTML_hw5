@@ -41,7 +41,10 @@ img{
     display: flex;
     justify-content: space-between;
   }
-
+.header_search{
+    background: none;
+    border: none;
+}
 .header_nav{
     display: flex;
     align-items: baseline;
