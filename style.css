@@ -390,6 +390,7 @@ ul{
     padding-bottom: 103px;
     max-width: 1140px;
 }
+
 .feature_items{
     display: flex;
     flex-wrap: nowrap;
@@ -491,8 +492,8 @@ ul{
 }
 .text-field_input:focus {
     color: #212529;
-    background-color: none;
-    border-color: none;
+    background: none;
+    border: none;
     outline: 0;
   }
 .form_svg{
@@ -619,6 +620,9 @@ ul{
         background-size: cover;
         width: 100vw;    
     }
+    .hero:hover .menu_hover_container{
+        opacity: 0;
+    }
 }
 
 @media(max-width:767px){
@@ -688,5 +692,8 @@ ul{
     }
     .subscrible_container{
         background-size: cover;
+    }
+    .hero:hover .menu_hover_container{
+        opacity: 0;
     }
 }
